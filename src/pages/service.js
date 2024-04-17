@@ -57,18 +57,18 @@ const Services = () => {
             <p className=' text-[#761116] text-[40px] font-bold font-Satoshi mt-8'>Our Services</p>
             <div className=" flex lg:flex-row flex-col mt-6 justify-between items-start">
                 <div className="w-full lg:w-[48%] text-justify">
-                    <p className=" font-Satoshi text-sm font-normal ">We provide a wide range of services at Angelos Holding Company that are customized to fulfil your requirements. Our team of passionate professionals is dedicated to providing outstanding solutions that will propel you. We take great delight in providing a delightful selection of baked goods and artisanal bread to suit all palates. Here is a sample of what we offer:</p>
+                    <p className=" font-Satoshi text-sm 2xl:text-base font-normal ">We provide a wide range of services at Angelos Holding Company that are customized to fulfil your requirements. Our team of passionate professionals is dedicated to providing outstanding solutions that will propel you. We take great delight in providing a delightful selection of baked goods and artisanal bread to suit all palates. Here is a sample of what we offer:</p>
 
                     <div className=" mt-6">
-                        <p className="font-Satoshi text-sm font-normal"><span className=" font-semibold">Taste and Aroma of Freshly Baked Bread:</span> Enjoy freshly baked bread from our ovens, featuring a variety of options for every taste and occasion, including traditional sourdough, whole grain, savory focaccia, and sweet brioche.</p>
+                        <p className="font-Satoshi text-sm 2xl:text-base font-normal"><span className=" font-semibold">Taste and Aroma of Freshly Baked Bread:</span> Enjoy freshly baked bread from our ovens, featuring a variety of options for every taste and occasion, including traditional sourdough, whole grain, savory focaccia, and sweet brioche.</p>
                     </div>
-                    <p className="font-Satoshi text-sm mt-3 font-normal"><span className=" font-semibold">Handmade Pastries:</span> Our handcrafted pastries, including buttery danishes, flaky croissants, rich cinnamon rolls, and delicate macarons, are expertly made using top-quality ingredients and time-honored methods.</p>
+                    <p className="font-Satoshi text-sm 2xl:text-base mt-3 font-normal"><span className=" font-semibold">Handmade Pastries:</span> Our handcrafted pastries, including buttery danishes, flaky croissants, rich cinnamon rolls, and delicate macarons, are expertly made using top-quality ingredients and time-honored methods.</p>
                 
-                    <p className="font-Satoshi text-sm mt-3 font-normal"><span className=" font-semibold">Special Orders:</span> Are you in the mood for something special or unusual? With our custom order service, you can design bespoke bread and pastry selections based on your dietary requirements and personal preferences.</p>
+                    <p className="font-Satoshi text-sm 2xl:text-base mt-3 font-normal"><span className=" font-semibold">Special Orders:</span> Are you in the mood for something special or unusual? With our custom order service, you can design bespoke bread and pastry selections based on your dietary requirements and personal preferences.</p>
                 
-                    <p className="font-Satoshi text-sm mt-3 font-normal"><span className=" font-semibold">Retail and Wholesale:</span>  We provide wholesale options to outfit your café, restaurant, or retail store with our mouthwatering bread and bakery goods. We also encourage retail clients to stop by our bakery and experience our products firsthand.</p>
+                    <p className="font-Satoshi text-sm 2xl:text-base mt-3 font-normal"><span className=" font-semibold">Retail and Wholesale:</span>  We provide wholesale options to outfit your café, restaurant, or retail store with our mouthwatering bread and bakery goods. We also encourage retail clients to stop by our bakery and experience our products firsthand.</p>
 
-                    <p className="font-Satoshi text-sm mt-3 font-normal"><span className=" font-semibold">Community Engagement:</span> We seek to have a positive influence and contribute to causes that are important to our neighbours and customers through collaborations with neighbourhood groups and projects.</p>
+                    <p className="font-Satoshi text-sm 2xl:text-base mt-3 font-normal"><span className=" font-semibold">Community Engagement:</span> We seek to have a positive influence and contribute to causes that are important to our neighbours and customers through collaborations with neighbourhood groups and projects.</p>
                     
                 </div>
                 <div style={{backgroundImage:`url(${service})`, backgroundPosition:'', backgroundSize:'cover'}} className="w-full lg:w-[48%] h-[500px] rounded-[14px] mt-6 lg:mt-0 bg- bg-[#D9D9D9]"></div>

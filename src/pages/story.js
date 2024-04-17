@@ -26,19 +26,19 @@ const Story = () => {
             <p className=' text-[#761116] text-[40px] font-bold font-Satoshi mt-8'>Our Story</p>
             <div className=" flex lg:flex-row flex-col mt-6 justify-between items-start pb-16">
                 <div className="w-full lg:w-[48%] text-justify">
-                    <p className=" font-Satoshi text-sm font-normal ">Founded in 2010 in Nigeria, Angelos Holdings Limited (AHL) was established to bridge the gap in the market for high-quality convenience foods and bakery products. Our mission is to become Africa’s premier, home-grown, innovative food brand, specializing in a direct-to-market approach for an extensive range of bakery and snack items.</p>
+                    <p className=" font-Satoshi text-sm 2xl:text-base font-normal ">Founded in 2010 in Nigeria, Angelos Holdings Limited (AHL) was established to bridge the gap in the market for high-quality convenience foods and bakery products. Our mission is to become Africa’s premier, home-grown, innovative food brand, specializing in a direct-to-market approach for an extensive range of bakery and snack items.</p>
 
                     <div className=" mt-4">
                         <p className=" text-[#751115] text-base font-bold font-Satoshi">Mission</p>
-                        <p className="font-Satoshi text-sm font-normal mt-2"> Enjoy freshly baked bread from our ovens, featuring a variety of options for every taste and occasion, including traditional sourdough, whole grain, savory focaccia, and sweet brioche.</p>
+                        <p className="font-Satoshi text-sm 2xl:text-base font-normal mt-2"> Enjoy freshly baked bread from our ovens, featuring a variety of options for every taste and occasion, including traditional sourdough, whole grain, savory focaccia, and sweet brioche.</p>
                     </div>
                     <div className=" mt-4">
                         <p className=" text-[#751115] text-base font-bold font-Satoshi">Vision</p>
-                        <p className="font-Satoshi text-sm font-normal mt-2">Our vision is to transform the baking and food service industry, achieving market leadership to enhance service delivery to a broader consumer base in the most viable and economically sustainable ways possible. We are committed to values of people first, health, affordability, expertise, benevolence, and prosperity.</p>
+                        <p className="font-Satoshi text-sm 2xl:text-base font-normal mt-2">Our vision is to transform the baking and food service industry, achieving market leadership to enhance service delivery to a broader consumer base in the most viable and economically sustainable ways possible. We are committed to values of people first, health, affordability, expertise, benevolence, and prosperity.</p>
                     </div>
                     <div className=" mt-4">
                         <p className=" text-[#751115] text-base font-bold font-Satoshi">Culture</p>
-                        <p className="font-Satoshi text-sm font-normal mt-2"> At Angelos, we are driven by speed, growth, and knowledge. Leveraging years of experience, profound industry knowledge, and scientific innovation, we are poised to disrupt and lead in the fragmented yet substantial bread, baked goods, and snacks market valued at $68 billion in Nigeria and, subsequently, across the broader sub-Saharan Africa region.</p>
+                        <p className="font-Satoshi text-sm 2xl:text-base font-normal mt-2"> At Angelos, we are driven by speed, growth, and knowledge. Leveraging years of experience, profound industry knowledge, and scientific innovation, we are poised to disrupt and lead in the fragmented yet substantial bread, baked goods, and snacks market valued at $68 billion in Nigeria and, subsequently, across the broader sub-Saharan Africa region.</p>
                     </div>
                 </div>
                 <div style={{backgroundImage:`url(${stoImg})`, backgroundPosition:'', backgroundSize:'cover'}} className="w-full lg:w-[48%] h-[500px] rounded-[14px] mt-6 lg:mt-0 bg- bg-[#D9D9D9]"></div>
@@ -49,15 +49,15 @@ const Story = () => {
                     <div className="w-full lg:w-[48%] text-justify">
                         <div className="">
                             <p className=" text-[#751115] text-base font-bold font-Satoshi">Growth and Expansion</p>
-                            <p className="font-Satoshi text-sm font-normal mt-2">Angelos Holdings Limited is actively seeking sustained strategic and channel partners deepen our to fuel our growth and cater to increasing demand for our bakery products. We have secured off-taker agreements with top supermarket brands, this will significantly boosting business growth over time.</p>
+                            <p className="font-Satoshi text-sm 2xl:text-base font-normal mt-2">Angelos Holdings Limited is actively seeking sustained strategic and channel partners deepen our to fuel our growth and cater to increasing demand for our bakery products. We have secured off-taker agreements with top supermarket brands, this will significantly boosting business growth over time.</p>
                         </div>
                         <div className=" mt-4">
                             <p className=" text-[#751115] text-base font-bold font-Satoshi">New Initiatives</p>
-                            <p className="font-Satoshi text-sm font-normal mt-2">In our quest to expand our market reach, AHL is set to launch a mobile mass-market café in collaboration with Nescafe. This initiative will offer affordable hot and cold beverages, popular street food, and mass-market bread. Additionally, through our Angelos Offshore Catering Subsidiary, we provide aviation, marine, sports, and institutional catering services, further diversifying our business and enhancing our market footprint.</p>
+                            <p className="font-Satoshi text-sm 2xl:text-base font-normal mt-2">In our quest to expand our market reach, AHL is set to launch a mobile mass-market café in collaboration with Nescafe. This initiative will offer affordable hot and cold beverages, popular street food, and mass-market bread. Additionally, through our Angelos Offshore Catering Subsidiary, we provide aviation, marine, sports, and institutional catering services, further diversifying our business and enhancing our market footprint.</p>
                         </div>
                         <div className=" mt-4">
                             <p className=" text-[#751115] text-base font-bold font-Satoshi">Digital Engagement</p>
-                            <p className="font-Satoshi text-sm font-normal mt-2">Embrace convenience with Onibread.com, our B2B and B2C ecommerce platform that delivers our entire range of bread and bakery products directly to households, offices, and the HORECA sector.</p>
+                            <p className="font-Satoshi text-sm 2xl:text-base font-normal mt-2">Embrace convenience with Onibread.com, our B2B and B2C ecommerce platform that delivers our entire range of bread and bakery products directly to households, offices, and the HORECA sector.</p>
                         </div>
                     </div>
                     <div style={{backgroundImage:`url(${sds})`, backgroundPosition:'', backgroundSize:'cover'}} className="w-full lg:w-[48%] h-[450px] rounded-[14px] mt-6 lg:mt-0 bg- bg-[#D9D9D9]"></div>
@@ -74,7 +74,7 @@ const Story = () => {
                                     <p className=" font-bold text-4xl">{ item.name }</p>
                                     <p className=" font-medium text-xl mt-3 italic">{ item.position }</p>
                                 </div>
-                                <p className=" mt-4 text-sm w-[280px] md:w-[450px]">{ item.about }</p>
+                                <p className=" mt-4 text-sm 2xl:text-base w-[280px] md:w-[450px]">{ item.about }</p>
                             </div>
                         ))}
                     </div>
