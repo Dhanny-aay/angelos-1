@@ -29,9 +29,9 @@ const Contact = () => {
                 </div>
 
                 <div className=" w-full mt-6 md:mt-0 md:w-[60%]">
-                    <input type="text" name="name" placeholder="Your Name*" required className=" w-full p-2.5 placeholder:font-Satoshi font-Satoshi border-b border-[#000000]" id="" />
-                    <input type="text" name="name" placeholder="Your Email*" required className=" w-full p-2.5 placeholder:font-Satoshi font-Satoshi border-b mt-4 border-[#000000]" id="" />
-                    <textarea type="text" name="name" placeholder="Message*" required className=" w-full p-2.5 placeholder:font-Satoshi font-Satoshi border-b mt-4 border-[#000000]" id="" />
+                    <input type="text" name="name" placeholder="Your Name*" required className=" w-full py-2.5 placeholder:font-Satoshi font-Satoshi border-b border-[#000000]" id="" />
+                    <input type="text" name="name" placeholder="Your Email*" required className=" w-full py-2.5 placeholder:font-Satoshi font-Satoshi border-b mt-4 border-[#000000]" id="" />
+                    <textarea type="text" name="name" placeholder="Message*" required className=" w-full py-2.5 placeholder:font-Satoshi font-Satoshi border-b mt-4 border-[#000000]" id="" />
                     <span className=" w-full ">
                         <button className=' py-2 px-5 block mt-6 ml-auto bg-[#053C2B] rounded-[30px] text-base font-medium font-Satoshi text-center text-white'>Send</button>
                     </span>

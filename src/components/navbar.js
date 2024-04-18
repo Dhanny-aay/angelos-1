@@ -1,8 +1,14 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import logo from './assets/logo.svg';
 import menu from './assets/menu.svg';
 
 const Navbar = () => {
+
+    const location = useLocation();
+
+    const isActive = (pathname) => {
+        return location.pathname === pathname ? 'border-b-2 border-[#000]' : '';
+    };
 
     function overlay(){
         //check classlist
@@ -38,7 +44,7 @@ const Navbar = () => {
             </div>
         </div>
 
-        <div className=" fixed top-0 left-0 w-full px-6 md:px-20 py-6 flex bg-white justify-between items-center">
+        <div className=" fixed top-0 left-0 w-full px-6 md:px-20 py-6 flex border-b border-[#0007] bg-white justify-between items-center">
             <span className=' flex items-center space-x-'>
                 <img src={ logo } className=' w-24 md:w-auto' alt="" />
                 <p className=' font-Satoshi text-black font-bold text-sm md:text-xl'> Holdings Limited</p>
@@ -53,9 +59,9 @@ const Navbar = () => {
                 </div>
             </div>
             <span className=' hidden lg:flex items-center space-x-6 text-black'>
-                <Link to='/'><p className=' text-base font-medium font-Satoshi'>Home</p></Link>
-                <Link to='/Services'><p className=' text-base font-medium font-Satoshi'>Services</p></Link>
-                <Link to='/Our-story'><p className=' text-base font-medium font-Satoshi'>About Us</p></Link>
+                <Link to='/'><p className={`text-base font-medium font-Satoshi ${isActive('/')}`}>Home</p></Link>
+                <Link to='/Services'><p className={`text-base font-medium font-Satoshi ${isActive('/Services')}`}>Services</p></Link>
+                <Link to='/Our-story'><p className={`text-base font-medium font-Satoshi ${isActive('/Our-story')}`}>About Us</p></Link>
                 <Link to='/contact'><button className=' py-2 px-5 bg-[#053C2B] rounded-[30px] text-base font-medium font-Satoshi text-center text-white'>Contact Us</button></Link>
             </span>
         </div>
