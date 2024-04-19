@@ -26,7 +26,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className=' pb-8 text-white text-xs md:text-sm text-center pt-16 font-Satoshi'>
-                ©2024 Angelos Holdings Company - NO 1203643. All rights reserved.
+                ©2024 Angelos Holdings Limited - NO 1203643. All rights reserved.
             </div>
         </div>
         </>

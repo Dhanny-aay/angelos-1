@@ -22,9 +22,9 @@ const Contact = () => {
 
                     <p className=" mt-12 text-xl font-medium font-Satoshi mb-5">Follow Us on:</p>
                     <span className=" space-y-3 font-Satoshi text-base font-normal">
+                        <p className="">Facebook</p>
                         <p className="">Instagram</p>
                         <p className="">Twitter</p>
-                        <p className="">Facebook</p>
                     </span>
                 </div>
 

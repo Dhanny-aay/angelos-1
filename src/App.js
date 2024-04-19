@@ -8,28 +8,28 @@ import logo from './logo.webp';
 
 function App() {
 
-  const [loadingScreen, setLoadingScreen] = useState(true);
+  // const [loadingScreen, setLoadingScreen] = useState(true);
   const location = useLocation();
 
   useEffect(() => {
     window.scrollTo(0, 0);
 
     // Set loading screen to false after 6 seconds
-    const timer = setTimeout(() => {
-      setLoadingScreen(false);
-    }, 6000);
+    // const timer = setTimeout(() => {
+    //   setLoadingScreen(false);
+    // }, 6000);
 
-    // Clear the timer to avoid memory leaks
-    return () => clearTimeout(timer);
+    // // Clear the timer to avoid memory leaks
+    // return () => clearTimeout(timer);
   }, [location.pathname]);
 
 
   return (
     <>
 
-    { loadingScreen && <div className=" fixed top-0 left-0 z-[999] w-full h-[100vh] bg-white flex items-center justify-center">
+    {/* { loadingScreen && <div className=" fixed top-0 left-0 z-[999] w-full h-[100vh] bg-white flex items-center justify-center">
       <img src={ logo } className=" w-[40%]" alt="" />
-    </div>}
+    </div>} */}
 
     <Routes>
       <Route path="/" element={ <Landing/> }/>
